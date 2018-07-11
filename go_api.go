@@ -39,7 +39,7 @@ func GetPerson(w http.ResponseWriter, r *http.Request) {
 }
 
 func CreatePerson(w http.ResponseWriter, r *http.Request) {
-	// yeni bir öğe oluştur.
+	// yeni bir öğe oluştur
 	params := mux.Vars(r)
 	var person Person
 	_ = json.NewDecoder(r.Body).Decode(&person)
