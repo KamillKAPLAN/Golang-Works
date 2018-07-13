@@ -55,9 +55,9 @@ func CreatePerson(w http.ResponseWriter, r *http.Request) {
 }
 
 func DeletePerson(w http.ResponseWriter, r *http.Request) {
-	fmt.Print("Delete user\n")
 	// Bir öğeyi sil
 	params := mux.Vars(r)
+	fmt.Printf("Delete user: %s\n", params["id"])
 	for index, item := range people {
 		if item.ID == params["id"] {
 			people = append(people[:index], people[index+1:]...)
@@ -65,6 +65,12 @@ func DeletePerson(w http.ResponseWriter, r *http.Request) {
 		}
 		json.NewEncoder(w).Encode(people)
 	}
+}
+
+func PuthPerson(w http.ResponseWriter, r * httpRequest) {
+	fmt.Print("Put  user\n")
+
+	params := mux.Vars(r)
 }
 
 func main() {
