@@ -1,67 +1,109 @@
-var ids = document.getElementsByClassName('id');
-var firsts = document.getElementsByClassName('first');
-var lasts = document.getElementsByClassName('last');
-var removes = document.getElementsByClassName('remove');
-var req = document.getElementById("req");
+// var IdA = document.getElementsByClassName('Id');
+// var KisimA = document.getElementsByClassName('Kisim');
+// var KucretA = document.getElementsByClassName('Kucret');
+// var KyayinA = document.getElementsByClassName('Kyayin');
+// var deletes = document.getElementsByClassName('remove');
+// var updates = document.getElementsByClassName('update');
+//
+// var btnGet = document.getElementById('Rget');
+// var btnPost = document.getElementById('Rpost');
+// var btnDelete = document.getElementById('Rdelete');
+// var btnPut = document.getElementById('Rput');
 
-var xhr = new XMLHttpRequest();
-var url = "http://localhost:3000/people"
+var url = "http://localhost:2550/book"
+var book = {};
 
-xhr.responseType = ""; // ne dönemsi gerektiğini belirtiyor. (ARAŞTIR.)
+var xhr  = new XMLHttpRequest()
+xhr.open('GET', url + '/' + 1, true)
+xhr.onload = function () {
+	book = JSON.parse(xhr.responseText);
+  console.log("Get edilen book:", book);
+	if (xhr.readyState == 4 && xhr.status == "200") {
+    update(book);
+		// console.table(book);
+	} else {
+		console.error(book);
+	}
+}
+xhr.send(null);
 
-xhr.onreadystatechange = function() {
-    if (xhr.readyState == 4 && xhr.status == 200) {
-        console.log(xhr);
-        var response = JSON.parse(xhr.responseText);
-        show(response);
+// UPDATE [ PUT ]
+
+function update(book) {
+  book.Kisim  = "Snow2";
+  var json = JSON.stringify(book);
+
+  var req = new XMLHttpRequest();
+  req.open("PUT", url+'/1', true);
+
+  req.onload = function () {
+    var updatedBook = JSON.parse(req.responseText);
+    if (req.readyState == 4 && req.status == "200") {
+      console.log("Update edilen book:", updatedBook);
+      listBooks();
+    } else {
+      console.error(updatedBook);
     }
-};
-  xhr.open("GET",url, true);
-  xhr.send();
-
-function show(arr) {
-  for(var i = 0; i < arr.length; i++) {
-    var j = i+1;
-    ids[i].innerHTML = arr[i].ID;
-    firsts[i].innerHTML = arr[i].FirstName;
-    lasts[i].innerHTML = arr[i].LastName;
-    removes[i].innerHTML = "<button type='button' name='button' style='margin-left: 10px;' onclick='deleate(" + j + ")'>Sil</button>" +'<br>';
   }
+  req.send(json);
 }
 
-function deleate(num) {
-  var new_url = url + "/" + num;
-  xhr.open("DELETE", new_url, true);
-  // console.log(new_url);
-  xhr.send();
-}
+// LİSTELE [ GET ]
 
-function postA(){
-  var data = {}
-  data.FirstName = "Kamil";
-  data.LastName = "KAPLAN";
-  var json = JSON.stringify(data);
-  var i = ids.length;
-  xhr.open("POST", url + "/" + (i+1) , true);
-  xhr.send(json);
-}
+function listBooks() {
+  var lst = new XMLHttpRequest()
+  lst.open('GET', url, true)
 
-function puthA(){
-  var data = {};
-  data.firstname = "John2";
-  data.lastname  = "Snow2";
-  var json = JSON.stringify(data)
-
-  var xhr = new XMLHttpRequest();
-  xhr.open("PUT", url+'/12', true);
-  xhr.onload = function () {
-  	var users = JSON.parse(xhr.responseText);
-  	if (xhr.readyState == 4 && xhr.status == "200") {
-  		console.table(users);
-  	} else {
-  		console.error(users);
-  	}
+  lst.onload = function () {
+  	var lstbooks = JSON.parse(lst.responseText);
+    if (lst.readyState == 4 && lst.status == "200") {
+      console.log("Books: ", lstbooks);
+      deleteBooks();
+    } else {
+      console.error(lstbooks);
+    }
   }
-  xhr.send(json);
+  lst.send(null);
+}
 
+// DELETE [ DELETE ]
+
+function deleteBooks() {
+  var dlt = new XMLHttpRequest()
+  dlt.open("DELETE", url + "/3", true)
+
+  dlt.onload = function () {
+    // var deletebooks = JSON.parse(dlt.responseText);
+    if (dlt.readyState == 4 && dlt.status == "200") {
+      // console.log("Delete edilen book: ", deletebooks);
+      addBooks();
+    } else {
+      console.error(deletebooks);
+    }
+  }
+  dlt.send(null);
+}
+
+// ADD [ POST ]
+
+function addBooks() {
+  var add = new XMLHttpRequest();
+  book.Kisim = "Yeni Kitap"
+  book.Kucret = 50;
+  book.Kyayin = 2018
+
+  var json = JSON.stringify(book);
+  var addy = new XMLHttpRequest();
+  addy.open("POST", url + "/4", true);
+  addy.setRequestHeader('Content-type','application/json; charset=utf-8');
+  addy.onload = function () {
+    var addBook = JSON.parse(addy.responseText);
+
+    if (addy.readyState == 4 && addy.status == "200") {
+      console.log("Add edilen book:", addBook);
+    } else {
+      console.error(updatedBook);
+    }
+  }
+  addy.send(json);
 }

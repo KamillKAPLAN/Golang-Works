@@ -1,12 +1,13 @@
 package main
 
 import (
-	"fmt"
 	"encoding/json"
+	"fmt"
 	"log"
 	"net/http"
-	"github.com/rs/cors"
+
 	"github.com/gorilla/mux"
+	"github.com/rs/cors"
 )
 
 type Person struct {
@@ -34,6 +35,7 @@ func GetPerson(w http.ResponseWriter, r *http.Request) {
 	params := mux.Vars(r)
 	for _, item := range people {
 		if item.ID == params["id"] {
+			fmt.Print(item)
 			// mySlice := []Person{item}
 			json.NewEncoder(w).Encode(item)
 			return
@@ -48,7 +50,7 @@ func CreatePerson(w http.ResponseWriter, r *http.Request) {
 	// yeni bir öğe oluştur
 	params := mux.Vars(r)
 	var person Person
-	_ = json.NewDecoder(r.Body).Decode(&person)
+	json.NewDecoder(r.Body).Decode(&person)
 	person.ID = params["id"]
 	people = append(people, person)
 	json.NewEncoder(w).Encode(people)
@@ -67,12 +69,6 @@ func DeletePerson(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
-func PuthPerson(w http.ResponseWriter, r * httpRequest) {
-	fmt.Print("Put  user\n")
-
-	params := mux.Vars(r)
-}
-
 func main() {
 	fmt.Print("Server starts...\n")
 	router := mux.NewRouter()
@@ -86,20 +82,20 @@ func main() {
 	router.HandleFunc("/people/{id}", DeletePerson).Methods("DELETE") // Bir kişi sil
 
 	router.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-				fmt.Print("Create  user\n")
-        w.Header().Set("Content-Type", "application/json")
-        w.Write([]byte("{\"hello\": \"world\"}"))
-    })
+		fmt.Print("Create  user\n")
+		w.Header().Set("Content-Type", "application/json")
+		w.Write([]byte("{\"hello\": \"world\"}"))
+	})
 
-		c := cors.New(cors.Options{
-		    AllowedOrigins: []string{"*"},
-				AllowedMethods: []string{"GET", "PUT", "POST", "DELETE"},
-		    AllowCredentials: true,
-		    // Enable Debugging for testing, consider disabling in production
-		    Debug: true,
-		})
+	c := cors.New(cors.Options{
+		AllowedOrigins:   []string{"*"},
+		AllowedMethods:   []string{"GET", "PUT", "POST", "DELETE"},
+		AllowCredentials: true,
+		// Enable Debugging for testing, consider disabling in production
+		Debug: true,
+	})
 
-// Insert the middleware
+	// Insert the middleware
 	handler := c.Handler(router)
 
 	// handler := cors.Default().Handler(router)
