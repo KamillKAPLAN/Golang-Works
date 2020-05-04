@@ -1,0 +1,15 @@
+önceikle bugün dün yapımı bittiği dediğim weather package i meğersem benim yanlış anlamalarımdan dolayı bitmemiş. Test bölümüolmadan 
+ - location.go
+ - forecast.go 
+ - weather.go
+ - location_forecast.json
+ - weather/ 
+şeklinde bir dosya yapısı olacak. 
+
+testLocation.go da yapmış olduğum tüm işlemleri sadece location.go da yapıp gelen cityName ve cityCoe'u .json uzantılı dosyaya kaydedip okuyacak.
+Gün olarak yapmış olduklarım bunlar projenin son halinide 
+ - github/icibani/goweather 
+bölümünden görebiliriz.
+ 
+
+ - https://tutorialedge.net/golang/parsing-json-with-golang/

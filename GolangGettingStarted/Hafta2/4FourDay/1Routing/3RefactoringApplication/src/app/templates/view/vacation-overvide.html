@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <table class="table">
+        <thead>
+        <tr>
+            <th>StartDate</th>
+            <th>Amount</th>
+            <th>Type</th>
+            <th>Status</th>
+        </tr>
+        </thead>
+    </table>
+    {{range.TimesOff}}
+        <div class="row col-lg-12">
+            <div class="col-lg-3">{{.StartDate.Format "2-Jan"}}</div>
+            <div class="col-lg-2">{{.Amount}}</div>
+            <div class="col-lg-2">{{.Type}}</div>
+            <div class="col-lg-2">{{.Status}}</div>
+            <div class="col-lg-3">
+                <button class="btn primary-lighteen-1"
+                        {{if eq .Status "Taken"}}
+                            disabled
+                        {{end}}
+                >
+                    Edit
+                </button>
+            </div>
+        </div>
+    {{end}}
+</div>
+
+</body>
+</html>
+

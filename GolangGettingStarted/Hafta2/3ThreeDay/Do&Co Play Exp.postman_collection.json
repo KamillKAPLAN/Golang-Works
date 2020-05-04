@@ -1,0 +1,815 @@
+{
+	"info": {
+		"_postman_id": "b3fd2554-c146-4f7c-8f5d-d92a94374bbf",
+		"name": "Do&Co Play Exp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ExApi",
+			"item": [
+				{
+					"name": "PersonnelAttendance",
+					"item": [
+						{
+							"name": "DELETE_PersonnalAttendance",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "ApiKey",
+										"type": "text",
+										"value": "82717177-79d0-4124-ab8a-8ded8efec03e"
+									},
+									{
+										"key": "ApiSecret",
+										"type": "text",
+										"value": "7b80f197-d2d2-413c-b4a5-255924bfca12"
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "[\n    {\n        \"employee_code\": \"\",\n        \"client_id\": \"\",\n        \"attendance_date\": \"\",\n        \"in_time\": \"\"\n    }\n]"
+								},
+								"url": {
+									"raw": "http://10.22.0.197:8023/exapi/personnel_attendance",
+									"protocol": "http",
+									"host": [
+										"10",
+										"22",
+										"0",
+										"197"
+									],
+									"port": "8023",
+									"path": [
+										"exapi",
+										"personnel_attendance"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "POST_PersonalAttendance",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "ApiKey",
+										"type": "text",
+										"value": "82717177-79d0-4124-ab8a-8ded8efec03e"
+									},
+									{
+										"key": "ApiSecret",
+										"type": "text",
+										"value": "7b80f197-d2d2-413c-b4a5-255924bfca12"
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "[\n    {\n        \"employee_code\": \"\",\n        \"client_id\": \"\",\n        \"attendance_date\": \"\",\n        \"in_time\": \"\",\n        \"out_time\": \"\",\n        \"duration\": \"\",\n        \"duration_state\": \"\",\n        \"type\": \"\",\n        \"notify_action\": \"\",\n        \"notify_comment\": \"\"\n    }\n]"
+								},
+								"url": {
+									"raw": "http://10.22.0.197:8023/exapi/personnel_attendance",
+									"protocol": "http",
+									"host": [
+										"10",
+										"22",
+										"0",
+										"197"
+									],
+									"port": "8023",
+									"path": [
+										"exapi",
+										"personnel_attendance"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PersonnalAttendance",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "ApiKey",
+										"type": "text",
+										"value": "82717177-79d0-4124-ab8a-8ded8efec03e"
+									},
+									{
+										"key": "ApiSecret",
+										"type": "text",
+										"value": "7b80f197-d2d2-413c-b4a5-255924bfca12"
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://10.22.0.197:8023/exapi/personnel_attendance",
+									"protocol": "http",
+									"host": [
+										"10",
+										"22",
+										"0",
+										"197"
+									],
+									"port": "8023",
+									"path": [
+										"exapi",
+										"personnel_attendance"
+									],
+									"query": [
+										{
+											"key": "page_size",
+											"value": "1",
+											"disabled": true
+										},
+										{
+											"key": "page",
+											"value": "3",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_PersonnalAttendancebyID",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "ApiKey",
+										"type": "text",
+										"value": "82717177-79d0-4124-ab8a-8ded8efec03e"
+									},
+									{
+										"key": "ApiSecret",
+										"type": "text",
+										"value": "7b80f197-d2d2-413c-b4a5-255924bfca12"
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://10.22.0.197:8023/exapi/personnel_attendance/1?",
+									"protocol": "http",
+									"host": [
+										"10",
+										"22",
+										"0",
+										"197"
+									],
+									"port": "8023",
+									"path": [
+										"exapi",
+										"personnel_attendance",
+										"1"
+									],
+									"query": [
+										{
+											"key": "page_size",
+											"value": "1",
+											"disabled": true
+										},
+										{
+											"key": "page",
+											"value": "3",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "RosterPlan",
+					"item": [
+						{
+							"name": "DELETE_RosterPlan",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "ApiKey",
+										"type": "text",
+										"value": "82717177-79d0-4124-ab8a-8ded8efec03e"
+									},
+									{
+										"key": "ApiSecret",
+										"type": "text",
+										"value": "7b80f197-d2d2-413c-b4a5-255924bfca12"
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "[\n    {\n        \"employee_code\": \"\",\n        \"client_id\": 1,\n        \"plan_date\": \"\",\n        \"plan_type\": \"\"\n    }\n]"
+								},
+								"url": {
+									"raw": "http://10.22.0.197:8023/exapi/roster_plan",
+									"protocol": "http",
+									"host": [
+										"10",
+										"22",
+										"0",
+										"197"
+									],
+									"port": "8023",
+									"path": [
+										"exapi",
+										"roster_plan"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "POST_RosterPlan",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "ApiKey",
+										"type": "text",
+										"value": "82717177-79d0-4124-ab8a-8ded8efec03e"
+									},
+									{
+										"key": "ApiSecret",
+										"type": "text",
+										"value": "7b80f197-d2d2-413c-b4a5-255924bfca12"
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "[\n    {\n        \"employee_code\": \"\",\n        \"client_id\": 1,\n        \"plan_date\": \"\",\n        \"plan_type\": \"\",\n        \"plan_value\": \"\",\n        \"over_time\": 0,\n        \"start_time\": \"\",\n        \"end_time\": \"\",\n        \"plan_description\": \"\",\n        \"color\": \"\",\n        \"notify_action\": \"\",\n        \"notify_comment\": \"\"\n    }\n]"
+								},
+								"url": {
+									"raw": "http://10.22.0.197:8023/exapi/roster_plan",
+									"protocol": "http",
+									"host": [
+										"10",
+										"22",
+										"0",
+										"197"
+									],
+									"port": "8023",
+									"path": [
+										"exapi",
+										"roster_plan"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_RosterPlan",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "ApiKey",
+										"type": "text",
+										"value": "82717177-79d0-4124-ab8a-8ded8efec03e"
+									},
+									{
+										"key": "ApiSecret",
+										"type": "text",
+										"value": "7b80f197-d2d2-413c-b4a5-255924bfca12"
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://10.22.0.197:8023/exapi/roster_plan",
+									"protocol": "http",
+									"host": [
+										"10",
+										"22",
+										"0",
+										"197"
+									],
+									"port": "8023",
+									"path": [
+										"exapi",
+										"roster_plan"
+									],
+									"query": [
+										{
+											"key": "page_size",
+											"value": "1",
+											"disabled": true
+										},
+										{
+											"key": "page",
+											"value": "3",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_RosterPlanByID",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "ApiKey",
+										"type": "text",
+										"value": "82717177-79d0-4124-ab8a-8ded8efec03e"
+									},
+									{
+										"key": "ApiSecret",
+										"type": "text",
+										"value": "7b80f197-d2d2-413c-b4a5-255924bfca12"
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://10.22.0.197:8023/exapi/roster_plan",
+									"protocol": "http",
+									"host": [
+										"10",
+										"22",
+										"0",
+										"197"
+									],
+									"port": "8023",
+									"path": [
+										"exapi",
+										"roster_plan"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Employee",
+					"item": [
+						{
+							"name": "DELETE_Employee",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "ApiKey",
+										"type": "text",
+										"value": "82717177-79d0-4124-ab8a-8ded8efec03e"
+									},
+									{
+										"key": "ApiSecret",
+										"type": "text",
+										"value": "7b80f197-d2d2-413c-b4a5-255924bfca12"
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "[\n    \"D5D3005\",\n    \"D5D3004\"\n]"
+								},
+								"url": {
+									"raw": "http://10.22.0.197:8023/exapi/employee",
+									"protocol": "http",
+									"host": [
+										"10",
+										"22",
+										"0",
+										"197"
+									],
+									"port": "8023",
+									"path": [
+										"exapi",
+										"employee"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_EmployeeById",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "ApiKey",
+										"type": "text",
+										"value": "82717177-79d0-4124-ab8a-8ded8efec03e"
+									},
+									{
+										"key": "ApiSecret",
+										"type": "text",
+										"value": "7b80f197-d2d2-413c-b4a5-255924bfca12"
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://10.22.0.197:8023/exapi/employee/1",
+									"protocol": "http",
+									"host": [
+										"10",
+										"22",
+										"0",
+										"197"
+									],
+									"port": "8023",
+									"path": [
+										"exapi",
+										"employee",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "POST_Employee",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "ApiKey",
+										"type": "text",
+										"value": "82717177-79d0-4124-ab8a-8ded8efec03e"
+									},
+									{
+										"key": "ApiSecret",
+										"type": "text",
+										"value": "7b80f197-d2d2-413c-b4a5-255924bfca12"
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "[\n    {\n        \"code\": \"D5D3005\",\n        \"client_id\": 1,\n        \"name\": \"Selim\",\n        \"surname\": \"Başer\",\n        \"company_code\": \"DOCO001\",\n        \"company\": \"DOCO\",\n        \"branch_code\": \"002\",\n        \"branch\": \"Ankara\",\n        \"section_code\": \"001\",\n        \"section\": \"Üretim\",\n        \"department_code\": \"\",\n        \"department\": \"\",\n        \"unit_code\": \"\",\n        \"unit\": \"\",\n        \"cost_center_code\": \"\",\n        \"cost_center\": \"\",\n        \"email\": \"selim.baser@gmail.com\",\n        \"phone\": \"05325456262\",\n        \"picture_url\": \"\",\n        \"date_of_employement\": \"0001-01-01T00:00:00Z\",\n        \"release_date\": \"0001-01-01T00:00:00Z\",\n        \"active\": true\n    }\n]"
+								},
+								"url": {
+									"raw": "http://10.22.0.197:8023/exapi/employee",
+									"protocol": "http",
+									"host": [
+										"10",
+										"22",
+										"0",
+										"197"
+									],
+									"port": "8023",
+									"path": [
+										"exapi",
+										"employee"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_Employee",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "ApiKey",
+										"value": "82717177-79d0-4124-ab8a-8ded8efec03e",
+										"type": "text"
+									},
+									{
+										"key": "ApiSecret",
+										"value": "7b80f197-d2d2-413c-b4a5-255924bfca12",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://10.22.0.197:8023/exapi/employee?page_size=1&page=3",
+									"protocol": "http",
+									"host": [
+										"10",
+										"22",
+										"0",
+										"197"
+									],
+									"port": "8023",
+									"path": [
+										"exapi",
+										"employee"
+									],
+									"query": [
+										{
+											"key": "page_size",
+											"value": "1"
+										},
+										{
+											"key": "page",
+											"value": "3"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Absent Time",
+					"item": [
+						{
+							"name": "DELETE_AbsentTime",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "ApiKey",
+										"type": "text",
+										"value": "82717177-79d0-4124-ab8a-8ded8efec03e"
+									},
+									{
+										"key": "ApiSecret",
+										"type": "text",
+										"value": "7b80f197-d2d2-413c-b4a5-255924bfca12"
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "[\n    {\n        \"employee_code\": \"DOCO001\",\n        \"client_id\": 1,\n        \"code\": \"001\"\n    }\n]"
+								},
+								"url": {
+									"raw": "http://10.22.0.197:8023/exapi/absent_time",
+									"protocol": "http",
+									"host": [
+										"10",
+										"22",
+										"0",
+										"197"
+									],
+									"port": "8023",
+									"path": [
+										"exapi",
+										"absent_time"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_AbsentTimeById",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "ApiKey",
+										"type": "text",
+										"value": "82717177-79d0-4124-ab8a-8ded8efec03e"
+									},
+									{
+										"key": "ApiSecret",
+										"type": "text",
+										"value": "7b80f197-d2d2-413c-b4a5-255924bfca12"
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://10.22.0.197:8023/exapi/absent_time/DOCO001",
+									"protocol": "http",
+									"host": [
+										"10",
+										"22",
+										"0",
+										"197"
+									],
+									"port": "8023",
+									"path": [
+										"exapi",
+										"absent_time",
+										"DOCO001"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "POST_AbsentTime",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "ApiKey",
+										"type": "text",
+										"value": "82717177-79d0-4124-ab8a-8ded8efec03e"
+									},
+									{
+										"key": "ApiSecret",
+										"type": "text",
+										"value": "7b80f197-d2d2-413c-b4a5-255924bfca12"
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "[\n    {\n        \"employee_code\": \"DOCO001\",\n        \"client_id\": 1,\n        \"code\": \"001\",\n        \"description\": \"\",\n        \"quantity_day\": 0,\n        \"quantity_hour\": 0,\n        \"notify_action\":\"\",\n        \"notify_comment\": \"\"\n    }\n]"
+								},
+								"url": {
+									"raw": "http://10.22.0.197:8023/exapi/absent_time",
+									"protocol": "http",
+									"host": [
+										"10",
+										"22",
+										"0",
+										"197"
+									],
+									"port": "8023",
+									"path": [
+										"exapi",
+										"absent_time"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET_AbsentTime",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "ApiKey",
+										"value": "82717177-79d0-4124-ab8a-8ded8efec03e",
+										"type": "text"
+									},
+									{
+										"key": "ApiSecret",
+										"value": "7b80f197-d2d2-413c-b4a5-255924bfca12",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://10.22.0.197:8023/exapi/absent_time",
+									"protocol": "http",
+									"host": [
+										"10",
+										"22",
+										"0",
+										"197"
+									],
+									"port": "8023",
+									"path": [
+										"exapi",
+										"absent_time"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				}
+			]
+		}
+	]
+}

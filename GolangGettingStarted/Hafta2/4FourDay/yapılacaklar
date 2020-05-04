@@ -1,0 +1,108 @@
+configure routing : yönlendirmeyi yapılandır
+validate incoming data : gelen verileri doğula
+responses to request : isteklere verilen cevaplar
+work with middleware : katman yazılımı ile çalışmak
+
+View :
+ - fazla destek yok
+ - HTML / şablon paketi ertelemek
+Controller :
+ - parametrik Yönlendiriciler
+     rota kısıtlaması yok
+ - temel güvenlik desteği
+ - çok esnek istek işleme
+    JSON, XML, Formlar
+ - güçlü data bindind(veri bağlama) ve doğrulama desteği
+ - cevaplar için birçok kolaylık yöntemi
+ - basit middleware(ara katman) api
+Model : 
+ - seçenek yok
+
+request: istek
+responses: yanıt
+
+-- Routing
+    url yönlendirme (url routing)
+    statik kaynaklar
+    parametreli rotalar
+
+-- Working with Requests
+    tekli değerleri almak
+      Route(rota) parametreleri  - Retrieving Route Parameters
+      Query(sorgu) parametreleri - Retrieving Query Parameters
+      Form(form) alanları        - Retrieving Form Fields
+    nesneleri alma
+      data validation (veri doğrulama)
+
+Retrieving Route Parameters
+ - Route "/employees/:id/vacation"
+ - URL   "/employees/42/vacation"
+ c.Param("id")  == "42"
+ c.Param("foo") == ""
+
+Retrieving Query Parameters
+ - Route "/employees/:id/vacation"
+ - URL   "/employees/42/vacation?type=Holiday"
+ c.Query("type") == "Holiday"
+ c.Param("foo")  == ""
+
+Retrieving Query Parameters with Default
+ - Route "/employees/:id/vacation"
+ - URL   "/employees /42/vacation?type=Holiday"
+ c.DefaultQuery("type","PTO") == "Holiday"
+ c.DefaultQuery("foo","bar")  == "bar"
+
+Retrieving Form Fields
+ - POST "/employees/42/vacation/add"
+ - type=PTO&amount=8&sta rtDate12082016
+ c.PostForm("amount") == "8"
+ c.PostForm("foo")    == ""
+
+Retrieving Form Fields with Default
+ - POST "/employees/42/vacation/add"
+ - type=PTO&amount=8&startDate12082016
+ c.PostForm("amount","0") == "8"
+ c.PostForm("foo","bar")    == "bar"
+
+DATA Binding - Forms
+ - POST /admin/employees/add
+ firstName=Kamil&lastName=KAPLAN
+
+ type Employee struct {
+   FirstName string `form:"firstName"`
+   LastName  string `form:"lastName"`
+ }
+
+ emp := Employee {
+   FirstName : c.PostForm("firstName"),
+   LastName  : c.PostForm("lastName"),
+ }
+
+ var emp Employee
+ err := c.Bind(&emp)
+
+DATA Binding - JSON
+
+ {
+    "firstName" : "Kamil"
+    "lastName"  : "KAPLAN"
+ }
+
+ type Employee struct {
+   FirstName string `json:"firstName"`
+   LastName  string `json:"lastName"`
+ }
+
+ var emp Employee
+ dec := json.NewDecoder(c.Request)
+ err := dec.Decode(&emp)
+
+ var emp Employee
+ err := c.BindJSON(&emp)
+
+DATA Validation
+
+type Employee struct {
+  FirstName string `json:"firstName" binding:"required"`
+  LastName  string `json:"lastName"  binding:"required"`
+}
