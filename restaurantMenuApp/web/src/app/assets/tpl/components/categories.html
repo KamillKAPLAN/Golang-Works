@@ -1,0 +1,43 @@
+<div class="container" ng-controller="categoryController">
+  <br>
+  <h1>Categories</h1>
+  <button ng-show="!localStorage.loggedIn" ng-click="pretendLogin()">(pretend) Login</button>
+  <button ng-show="localStorage.loggedIn" ng-click="pretendLogout()">(pretend) Logout</button>
+  <hr>
+  <div class="row">
+    <div class="col-sm-3">
+
+      <form class="form-horizontal">
+        <div class="form-group">
+          <label class="control-label">Listele:</label>
+          <div class="">
+            <input class="form-control" type="text" ng-model="searchCategory.name" autofocus>
+          </div>
+        </div>
+        <!-- <p class="alert alert-danger">{{convert}}</p> -->
+      </form>
+
+    </div>
+    <div class="col-sm-9">
+      <!-- <section ng-controller="categoryController">
+        <ul class="w3-ul">
+          <li ng-repeat="(index, category) in categories  track by $index" class="w3-padding-16">
+            <a href="categories/{{category.id}}">{{category.id}} - {{category.name}}</a>
+          </li>
+        </ul>
+      </section> -->
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="category in categories | filter:searchCategory:strict | orderBy:'list_order'">
+            <td><a href="#/categories/{{category.id}}">{{category.name}}</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

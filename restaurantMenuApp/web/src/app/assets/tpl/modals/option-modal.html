@@ -1,0 +1,32 @@
+  <div class="modal" ng-controller="optionController" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-demo">
+          <div class="modal-header">
+            Oooo
+          </div>
+          <div class="modal-body">
+            {{product.name}}
+            <ul ng-repeat="option in options | orderBy:'list_order'" style="list-style-type: none">
+                <li>{{option.name}}</li>
+                <ul style="list-style-type: none" ng-app = "">
+                  <li ng-repeat="(index, choice) in option.choices">
+                    <i class="fas fa-check-circle" aria-hidden="true" ng-show="choice.added" ng-click="choice.added=false;"></i>
+                    {{choice.name}} -
+                    <b> {{choice.price}} TL </b>
+                    <i class="fas fa-plus-circle" style="float: right; cursor:pointer;" ng-show="!choice.added" ng-click="choice.added=true;addChoiceToArray(choice)"></i>
+                    <i class="fas fa-minus-circle" style="float:right; cursor:pointer;" ng-show="choice.added" ng-click="choice.added=false;removeChoiceFromArray(choice)"></i>
+                  </li>
+                </ul>
+            </ul>
+            <span style="float: right;">
+              Fiyat: {{totalPrice}}
+            </span>
+          </div> <br>
+          <div class="modal-footer">
+            <button ng-click="complete()" class="w3-btn w3-padding w3-blue">Tamam</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

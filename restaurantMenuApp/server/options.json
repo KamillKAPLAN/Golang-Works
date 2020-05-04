@@ -1,0 +1,92 @@
+[
+  {
+    "id"          : "1111",
+    "category_id" : "1",
+    "product_id"  : "11",
+    "name"        : "Pizza Option 1",
+    "list_order"  : 1,
+    "required"    : true,
+    "choice_type" : "single"
+  },
+  {
+    "id"          : "1112",
+    "category_id" : "1",
+    "product_id"  : "11",
+    "name"        : "Pizza Option 2",
+    "list_order"  : 1,
+    "required"    : true,
+    "choice_type" : "multiple"
+  },
+  {
+    "id"          : "1121",
+    "category_id" : "1",
+    "product_id"  : "12",
+    "name"        : "Pizza Option 1",
+    "list_order"  : 1,
+    "required"    : false,
+    "choice_type" : "single"
+  },
+  {
+    "id"          : "1122",
+    "category_id" : "1",
+    "product_id"  : "12",
+    "name"        : "Pizza Option 2",
+    "list_order"  : 1,
+    "required"    : false,
+    "choice_type" : "multiple"
+  },
+  {
+    "id"          : "2221",
+    "category_id" : "2",
+    "product_id"  : "22",
+    "name"        : "Köfte Option 1",
+    "list_order"  : 2,
+    "required"    : true,
+    "choice_type" : "single"
+  },
+  {
+    "id"          : "4",
+    "category_id" : "2",
+    "product_id"  : "23",
+    "name"        : "Köfte Option 2",
+    "list_order"  : 2,
+    "required"    : false,
+    "choice_type" : "multiple"
+  },
+  {
+    "id"          : "5",
+    "category_id" : "3",
+    "product_id"  : "33",
+    "name"        : "Pide Option 1",
+    "list_order"  : 3,
+    "required"    : true,
+    "choice_type" : "single"
+  },
+  {
+    "id"          : "6",
+    "category_id" : "3",
+    "product_id"  : "34",
+    "name"        : "Pide Option 2",
+    "list_order"  : 3,
+    "required"    : false,
+    "choice_type" : "multiple"
+  },
+  {
+    "id"          : "7",
+    "category_id" : "4",
+    "product_id"  : "44",
+    "name"        : "Döner Option 1",
+    "list_order"  : 4,
+    "required"    : true,
+    "choice_type" : "single"
+  },
+  {
+    "id"          : "8",
+    "category_id" : "4",
+    "product_id"  : "45",
+    "name"        : "Döner Option 2",
+    "list_order"  : 4,
+    "required"    : false,
+    "choice_type" : "multiple"
+  }
+]

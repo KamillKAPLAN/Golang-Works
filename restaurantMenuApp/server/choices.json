@@ -1,0 +1,74 @@
+[
+  {
+    "id"          : "11111",
+    "category_id" : "1",
+    "product_id"  : "11",
+    "option_id"   : "1111",
+    "name"        : "p1o1c1",
+    "list_order"  : 1,
+    "price"       : 5.00
+  },
+  {
+    "id"          : "11112",
+    "category_id" : "1",
+    "product_id"  : "11",
+    "option_id"   : "1111",
+    "name"        : "p1o1c2",
+    "list_order"  : 2,
+    "price"       : 8.50
+  },
+  {
+    "id"          : "11113",
+    "category_id" : "1",
+    "product_id"  : "11",
+    "option_id"   : "1112",
+    "name"        : "p1o2c1",
+    "list_order"  : 1,
+    "price"       : 5.00
+  },
+  {
+    "id"          : "11114",
+    "category_id" : "1",
+    "product_id"  : "11",
+    "option_id"   : "1112",
+    "name"        : "p1o2c2",
+    "list_order"  : 2,
+    "price"       : 9.00
+  },
+  {
+    "id"          : "21111",
+    "category_id" : "1",
+    "product_id"  : "12",
+    "option_id"   : "1121",
+    "name"        : "p2o1c1",
+    "list_order"  : 1,
+    "price"       : 5.00
+  },
+  {
+    "id"          : "21112",
+    "category_id" : "1",
+    "product_id"  : "12",
+    "option_id"   : "1121",
+    "name"        : "p2o1c2",
+    "list_order"  : 2,
+    "price"       : 8.50
+  },
+  {
+    "id"          : "21113",
+    "category_id" : "1",
+    "product_id"  : "12",
+    "option_id"   : "1122",
+    "name"        : "p2o2c1",
+    "list_order"  : 1,
+    "price"       : 5.00
+  },
+  {
+    "id"          : "21114",
+    "category_id" : "1",
+    "product_id"  : "12",
+    "option_id"   : "1122",
+    "name"        : "p2o2c2",
+    "list_order"  : 2,
+    "price"       : 9.00
+  }
+]

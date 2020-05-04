@@ -1,0 +1,44 @@
+<style>
+.modal-backdrop.am-fade {
+    opacity: .5;
+    transition: opacity .15s linear;
+    &.ng-enter {
+      opacity: 0;
+      &.ng-enter-active {
+        opacity: .5;
+      }
+    }
+    &.ng-leave {
+      opacity: .5;
+      &.ng-leave-active {
+        opacity: 0;
+      }
+    }
+  }
+</style>
+<section ng-controller="adminController">
+  <div class="w3-card-2 w3-margin" style="max-width:400px;">
+    <header class="w3-container w3-light-grey w3-padding-8">
+      <h3>Categories</h3>
+    </header>
+    <ul class="w3-ul">
+      <li ng-repeat="(index, category) in categories  track by $index" class="w3-padding-16">
+        <a href="categories/{{category.id}}">{{category.id}} - {{category.name}}</a>
+
+        <span ng-click="showCategoryModal(category)"  style="float: right; cursor:pointer;"><i class="fas fa-pen-square fa-2x"></i></span>
+        <span ng-click="removeItem(index, category)" class="w3-right w3-margin-right" style="cursor:pointer;"><i class="fas fa-trash-alt fa-2x"></i></span>
+      </li>
+    </ul>
+    <div class="w3-container w3-light-grey w3-padding-8">
+      <div class="w3-row w3-margin-top">
+        <div class="w3-col s10">
+          <input placeholder="Add category items here" ng-model="new_category.name" class="w3-input w3-border w3-padding">
+        </div>
+        <div class="w3-col s2">
+          <button ng-click="addItem()" class="w3-btn w3-padding w3-green">Add</button>
+        </div>
+      </div>
+      <p class="w3-text-red">{{errortext}}</p>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,45 @@
+<div class="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-demo">
+        <div class="modal-header">
+          UPDATE
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <div class="col-sm-12">
+              <label>Id:</label>
+                <input type="text" class="form-control" disabled required ng-model="update_category.id">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <label>Name:</label>
+                <input type="text" class="form-control" required ng-model="update_category.name">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <label>ListOrder:</label>
+                <input type="number" class="form-control" required ng-model="update_category.list_order">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <label>ProductID:</label>
+                <input type="text" class="form-control" disabled required ng-model="update_category.product_ids">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-12">
+              <button type="submit" class="btn btn-default w3-right" ng-click="updateCategory(update_category)">Submit</button>
+            </div>
+          </div>
+        </div> <br>
+        <div class="modal-footer">
+          Footer
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

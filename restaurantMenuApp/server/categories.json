@@ -1,0 +1,26 @@
+[
+  {
+    "id"         : "1",
+    "name"       : "Pizza",
+    "list_order" : 1,
+    "product_ids": ["11", "12"]
+  },
+  {
+    "id"         : "2",
+    "name"       : "Köfte",
+    "list_order" : 2,
+    "product_ids": ["22","23"]
+  },
+  {
+    "id"         : "3",
+    "name"       : "Pide",
+    "list_order" : 3,
+    "product_ids": ["33","34"]
+  },
+  {
+    "id"         : "4",
+    "name"       : "Döner",
+    "list_order" : 4,
+    "product_ids": ["44","45"]
+  }
+]
