@@ -1,0 +1,2023 @@
+[
+ {
+  "Language": "en-us",
+  "Version": 1,
+  "Key": "1302511",
+  "Type": "City",
+  "Rank": 55,
+  "LocalizedName": "Fatih",
+  "EnglishName": "Fatih",
+  "Region": {
+   "ID": "MEA",
+   "LocalizedName": "Middle East",
+   "EnglishName": "Middle East"
+  },
+  "Country": {
+   "ID": "TR",
+   "LocalizedName": "Turkey",
+   "EnglishName": "Turkey"
+  },
+  "AdministrativeArea": {
+   "ID": "34",
+   "LocalizedName": "Istanbul",
+   "EnglishName": "Istanbul",
+   "Level": 1,
+   "LocalizedType": "Province",
+   "EnglishType": "Province",
+   "CountryID": "TR"
+  },
+  "TimeZone": {
+   "Code": "TRT",
+   "Name": "Europe/Istanbul",
+   "GMTOffset": 3,
+   "NextOffsetChange": "0001-01-01T00:00:00Z"
+  },
+  "GeoPosition": {
+   "Latitude": 41.042,
+   "Longitude": 28.866,
+   "Elevation": {
+    "Metric": {
+     "Unit": "m",
+     "UnitType": 5
+    },
+    "Imperial": {
+     "Value": 170,
+     "Unit": "ft"
+    }
+   }
+  },
+  "SupplementalAdminAreas": [
+   {
+    "Level": 2,
+    "LocalizedName": "Esenler",
+    "EnglishName": "Esenler"
+   }
+  ],
+  "Details": {
+   "Key": "1302511",
+   "StationCode": "LTBK",
+   "StationGmtOffset": 3,
+   "BandMap": "TU",
+   "Climo": "LTBA",
+   "Metar": "LTBA",
+   "Population": 45797,
+   "Satellite": "MIDE",
+   "Synoptic": "17060",
+   "Sources": [
+    {
+     "DataType": "CurrentConditions",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "DailyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "HourlyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "Dangerous Thunderstorm Alert Push Notifications",
+     "Source": "Earth Networks",
+     "SourceId": 57
+    }
+   ],
+   "CanonicalLocationKey": "318251",
+   "LocationStem": "tr/fatih/1302511"
+  }
+ },
+ {
+  "Language": "tr-tr",
+  "Version": 1,
+  "Key": "1302511",
+  "Type": "City",
+  "Rank": 55,
+  "LocalizedName": "Fatih",
+  "EnglishName": "Fatih",
+  "Region": {
+   "ID": "MEA",
+   "LocalizedName": "Orta Doğu",
+   "EnglishName": "Middle East"
+  },
+  "Country": {
+   "ID": "TR",
+   "LocalizedName": "Türkiye",
+   "EnglishName": "Turkey"
+  },
+  "AdministrativeArea": {
+   "ID": "34",
+   "LocalizedName": "İstanbul",
+   "EnglishName": "Istanbul",
+   "Level": 1,
+   "LocalizedType": "Eyalet",
+   "EnglishType": "Province",
+   "CountryID": "TR"
+  },
+  "TimeZone": {
+   "Code": "TRT",
+   "Name": "Europe/Istanbul",
+   "GMTOffset": 3,
+   "NextOffsetChange": "0001-01-01T00:00:00Z"
+  },
+  "GeoPosition": {
+   "Latitude": 41.042,
+   "Longitude": 28.866,
+   "Elevation": {
+    "Metric": {
+     "Unit": "m",
+     "UnitType": 5
+    },
+    "Imperial": {
+     "Value": 170,
+     "Unit": "ft"
+    }
+   }
+  },
+  "SupplementalAdminAreas": [
+   {
+    "Level": 2,
+    "LocalizedName": "Esenler",
+    "EnglishName": "Esenler"
+   }
+  ],
+  "Details": {
+   "Key": "1302511",
+   "StationCode": "LTBK",
+   "StationGmtOffset": 3,
+   "BandMap": "TU",
+   "Climo": "LTBA",
+   "Metar": "LTBA",
+   "Population": 45797,
+   "Satellite": "MIDE",
+   "Synoptic": "17060",
+   "Sources": [
+    {
+     "DataType": "CurrentConditions",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "DailyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "HourlyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "Dangerous Thunderstorm Alert Push Notifications",
+     "Source": "Earth Networks",
+     "SourceId": 57
+    }
+   ],
+   "CanonicalLocationKey": "318251",
+   "LocationStem": "tr/fatih/1302511"
+  }
+ },
+ {
+  "Language": "tr-tr",
+  "Version": 1,
+  "Key": "319472",
+  "Type": "City",
+  "Rank": 45,
+  "LocalizedName": "Bodrum",
+  "EnglishName": "Bodrum",
+  "Region": {
+   "ID": "MEA",
+   "LocalizedName": "Orta Doğu",
+   "EnglishName": "Middle East"
+  },
+  "Country": {
+   "ID": "TR",
+   "LocalizedName": "Türkiye",
+   "EnglishName": "Turkey"
+  },
+  "AdministrativeArea": {
+   "ID": "48",
+   "LocalizedName": "Muğla",
+   "EnglishName": "Mugla",
+   "Level": 1,
+   "LocalizedType": "Eyalet",
+   "EnglishType": "Province",
+   "CountryID": "TR"
+  },
+  "TimeZone": {
+   "Code": "TRT",
+   "Name": "Europe/Istanbul",
+   "GMTOffset": 3,
+   "NextOffsetChange": "0001-01-01T00:00:00Z"
+  },
+  "GeoPosition": {
+   "Latitude": 37.041,
+   "Longitude": 27.436,
+   "Elevation": {
+    "Metric": {
+     "Unit": "m",
+     "UnitType": 5
+    },
+    "Imperial": {
+     "Value": 6,
+     "Unit": "ft"
+    }
+   }
+  },
+  "SupplementalAdminAreas": [],
+  "Details": {
+   "Key": "319472",
+   "StationCode": "LTT7",
+   "StationGmtOffset": 3,
+   "BandMap": "TU",
+   "Climo": "LTFE",
+   "Metar": "LTFE",
+   "Population": 164158,
+   "Satellite": "MIDE",
+   "Synoptic": "17291",
+   "MarineStation": "GRM038",
+   "MarineStationGmtOffset": 2,
+   "Sources": [
+    {
+     "DataType": "CurrentConditions",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "DailyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "Dangerous Thunderstorm Alert Push Notifications",
+     "Source": "Earth Networks",
+     "SourceId": 57
+    },
+    {
+     "DataType": "HourlyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    }
+   ],
+   "CanonicalLocationKey": "319472",
+   "LocationStem": "tr/bodrum/319472"
+  }
+ },
+ {
+  "Language": "en-us",
+  "Version": 1,
+  "Key": "319472",
+  "Type": "City",
+  "Rank": 45,
+  "LocalizedName": "Bodrum",
+  "EnglishName": "Bodrum",
+  "Region": {
+   "ID": "MEA",
+   "LocalizedName": "Middle East",
+   "EnglishName": "Middle East"
+  },
+  "Country": {
+   "ID": "TR",
+   "LocalizedName": "Turkey",
+   "EnglishName": "Turkey"
+  },
+  "AdministrativeArea": {
+   "ID": "48",
+   "LocalizedName": "Muğla",
+   "EnglishName": "Mugla",
+   "Level": 1,
+   "LocalizedType": "Province",
+   "EnglishType": "Province",
+   "CountryID": "TR"
+  },
+  "TimeZone": {
+   "Code": "TRT",
+   "Name": "Europe/Istanbul",
+   "GMTOffset": 3,
+   "NextOffsetChange": "0001-01-01T00:00:00Z"
+  },
+  "GeoPosition": {
+   "Latitude": 37.041,
+   "Longitude": 27.436,
+   "Elevation": {
+    "Metric": {
+     "Unit": "m",
+     "UnitType": 5
+    },
+    "Imperial": {
+     "Value": 6,
+     "Unit": "ft"
+    }
+   }
+  },
+  "SupplementalAdminAreas": [],
+  "Details": {
+   "Key": "319472",
+   "StationCode": "LTT7",
+   "StationGmtOffset": 3,
+   "BandMap": "TU",
+   "Climo": "LTFE",
+   "Metar": "LTFE",
+   "Population": 164158,
+   "Satellite": "MIDE",
+   "Synoptic": "17291",
+   "MarineStation": "GRM038",
+   "MarineStationGmtOffset": 2,
+   "Sources": [
+    {
+     "DataType": "CurrentConditions",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "DailyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "Dangerous Thunderstorm Alert Push Notifications",
+     "Source": "Earth Networks",
+     "SourceId": 57
+    },
+    {
+     "DataType": "HourlyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    }
+   ],
+   "CanonicalLocationKey": "319472",
+   "LocationStem": "tr/bodrum/319472"
+  }
+ },
+ {
+  "Language": "en-us",
+  "Version": 1,
+  "Key": "319488",
+  "Type": "City",
+  "Rank": 75,
+  "LocalizedName": "Icmeler",
+  "EnglishName": "Icmeler",
+  "Region": {
+   "ID": "MEA",
+   "LocalizedName": "Middle East",
+   "EnglishName": "Middle East"
+  },
+  "Country": {
+   "ID": "TR",
+   "LocalizedName": "Turkey",
+   "EnglishName": "Turkey"
+  },
+  "AdministrativeArea": {
+   "ID": "48",
+   "LocalizedName": "Muğla",
+   "EnglishName": "Mugla",
+   "Level": 1,
+   "LocalizedType": "Province",
+   "EnglishType": "Province",
+   "CountryID": "TR"
+  },
+  "TimeZone": {
+   "Code": "TRT",
+   "Name": "Europe/Istanbul",
+   "GMTOffset": 3,
+   "NextOffsetChange": "0001-01-01T00:00:00Z"
+  },
+  "GeoPosition": {
+   "Latitude": 36.802,
+   "Longitude": 28.224,
+   "Elevation": {
+    "Metric": {
+     "Unit": "m",
+     "UnitType": 5
+    },
+    "Imperial": {
+     "Value": 45,
+     "Unit": "ft"
+    }
+   }
+  },
+  "SupplementalAdminAreas": [],
+  "Details": {
+   "Key": "319488",
+   "StationCode": "TU0455",
+   "StationGmtOffset": 3,
+   "BandMap": "TU",
+   "Climo": "LGRP",
+   "Metar": "LGRP",
+   "Population": 5962,
+   "Satellite": "MIDE",
+   "Synoptic": "17298",
+   "MarineStation": "TUM029",
+   "MarineStationGmtOffset": 3,
+   "Sources": [
+    {
+     "DataType": "CurrentConditions",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "DailyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "HourlyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "Dangerous Thunderstorm Alert Push Notifications",
+     "Source": "Earth Networks",
+     "SourceId": 57
+    }
+   ],
+   "CanonicalLocationKey": "319488",
+   "LocationStem": "tr/icmeler/319488"
+  }
+ },
+ {
+  "Language": "en-us",
+  "Version": 1,
+  "Key": "319474",
+  "Type": "City",
+  "Rank": 85,
+  "LocalizedName": "Datca",
+  "EnglishName": "Datca",
+  "Region": {
+   "ID": "MEA",
+   "LocalizedName": "Middle East",
+   "EnglishName": "Middle East"
+  },
+  "Country": {
+   "ID": "TR",
+   "LocalizedName": "Turkey",
+   "EnglishName": "Turkey"
+  },
+  "AdministrativeArea": {
+   "ID": "48",
+   "LocalizedName": "Muğla",
+   "EnglishName": "Mugla",
+   "Level": 1,
+   "LocalizedType": "Province",
+   "EnglishType": "Province",
+   "CountryID": "TR"
+  },
+  "TimeZone": {
+   "Code": "TRT",
+   "Name": "Europe/Istanbul",
+   "GMTOffset": 3,
+   "NextOffsetChange": "0001-01-01T00:00:00Z"
+  },
+  "GeoPosition": {
+   "Latitude": 36.739,
+   "Longitude": 27.666,
+   "Elevation": {
+    "Metric": {
+     "Unit": "m",
+     "UnitType": 5
+    },
+    "Imperial": {
+     "Value": 147,
+     "Unit": "ft"
+    }
+   }
+  },
+  "SupplementalAdminAreas": [],
+  "Details": {
+   "Key": "319474",
+   "StationCode": "LTT7",
+   "StationGmtOffset": 3,
+   "BandMap": "TU",
+   "Climo": "LTFE",
+   "Metar": "LTFE",
+   "Population": 699,
+   "Satellite": "MIDE",
+   "Synoptic": "17297",
+   "MarineStation": "GRM018",
+   "MarineStationGmtOffset": 3,
+   "Sources": [
+    {
+     "DataType": "CurrentConditions",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "DailyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "Dangerous Thunderstorm Alert Push Notifications",
+     "Source": "Earth Networks",
+     "SourceId": 57
+    },
+    {
+     "DataType": "HourlyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    }
+   ],
+   "CanonicalLocationKey": "319474",
+   "LocationStem": "tr/datca/319474"
+  }
+ },
+ {
+  "Language": "tr-tr",
+  "Version": 1,
+  "Key": "1296342",
+  "Type": "City",
+  "Rank": 75,
+  "LocalizedName": "Turgutreis",
+  "EnglishName": "Turgutreis",
+  "Region": {
+   "ID": "MEA",
+   "LocalizedName": "Orta Doğu",
+   "EnglishName": "Middle East"
+  },
+  "Country": {
+   "ID": "TR",
+   "LocalizedName": "Türkiye",
+   "EnglishName": "Turkey"
+  },
+  "AdministrativeArea": {
+   "ID": "48",
+   "LocalizedName": "Muğla",
+   "EnglishName": "Mugla",
+   "Level": 1,
+   "LocalizedType": "Eyalet",
+   "EnglishType": "Province",
+   "CountryID": "TR"
+  },
+  "TimeZone": {
+   "Code": "TRT",
+   "Name": "Europe/Istanbul",
+   "GMTOffset": 3,
+   "NextOffsetChange": "0001-01-01T00:00:00Z"
+  },
+  "GeoPosition": {
+   "Latitude": 37.008,
+   "Longitude": 27.258,
+   "Elevation": {
+    "Metric": {
+     "Unit": "m",
+     "UnitType": 5
+    },
+    "Imperial": {
+     "Unit": "ft"
+    }
+   }
+  },
+  "SupplementalAdminAreas": [],
+  "Details": {
+   "Key": "1296342",
+   "StationCode": "LTT7",
+   "StationGmtOffset": 3,
+   "BandMap": "TU",
+   "Climo": "LGKO",
+   "Metar": "LGKO",
+   "Population": 5308,
+   "Satellite": "MIDE",
+   "Synoptic": "16742",
+   "MarineStation": "GRM038",
+   "MarineStationGmtOffset": 2,
+   "Sources": [
+    {
+     "DataType": "CurrentConditions",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "DailyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "HourlyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "Dangerous Thunderstorm Alert Push Notifications",
+     "Source": "Earth Networks",
+     "SourceId": 57
+    }
+   ],
+   "CanonicalLocationKey": "1296342",
+   "LocationStem": "tr/turgutreis/1296342"
+  }
+ },
+ {
+  "Language": "en-us",
+  "Version": 1,
+  "Key": "319493",
+  "Type": "City",
+  "Rank": 85,
+  "LocalizedName": "Oludeniz",
+  "EnglishName": "Oludeniz",
+  "Region": {
+   "ID": "MEA",
+   "LocalizedName": "Middle East",
+   "EnglishName": "Middle East"
+  },
+  "Country": {
+   "ID": "TR",
+   "LocalizedName": "Turkey",
+   "EnglishName": "Turkey"
+  },
+  "AdministrativeArea": {
+   "ID": "48",
+   "LocalizedName": "Muğla",
+   "EnglishName": "Mugla",
+   "Level": 1,
+   "LocalizedType": "Province",
+   "EnglishType": "Province",
+   "CountryID": "TR"
+  },
+  "TimeZone": {
+   "Code": "TRT",
+   "Name": "Europe/Istanbul",
+   "GMTOffset": 3,
+   "NextOffsetChange": "0001-01-01T00:00:00Z"
+  },
+  "GeoPosition": {
+   "Latitude": 36.57,
+   "Longitude": 29.14,
+   "Elevation": {
+    "Metric": {
+     "Unit": "m",
+     "UnitType": 5
+    },
+    "Imperial": {
+     "Value": 931,
+     "Unit": "ft"
+    }
+   }
+  },
+  "SupplementalAdminAreas": [],
+  "Details": {
+   "Key": "319493",
+   "StationCode": "TU0081",
+   "StationGmtOffset": 3,
+   "BandMap": "TU",
+   "Climo": "LTBS",
+   "Metar": "LTBS",
+   "Population": 4922,
+   "Satellite": "MIDE",
+   "Synoptic": "17296",
+   "MarineStation": "TUM004",
+   "MarineStationGmtOffset": 3,
+   "Sources": [
+    {
+     "DataType": "CurrentConditions",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "DailyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "HourlyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "Dangerous Thunderstorm Alert Push Notifications",
+     "Source": "Earth Networks",
+     "SourceId": 57
+    }
+   ],
+   "CanonicalLocationKey": "319493",
+   "LocationStem": "tr/oludeniz/319493"
+  }
+ },
+ {
+  "Language": "tr-tr",
+  "Version": 1,
+  "Key": "319475",
+  "Type": "City",
+  "Rank": 55,
+  "LocalizedName": "Fethiye",
+  "EnglishName": "Fethiye",
+  "Region": {
+   "ID": "MEA",
+   "LocalizedName": "Orta Doğu",
+   "EnglishName": "Middle East"
+  },
+  "Country": {
+   "ID": "TR",
+   "LocalizedName": "Türkiye",
+   "EnglishName": "Turkey"
+  },
+  "AdministrativeArea": {
+   "ID": "48",
+   "LocalizedName": "Muğla",
+   "EnglishName": "Mugla",
+   "Level": 1,
+   "LocalizedType": "Eyalet",
+   "EnglishType": "Province",
+   "CountryID": "TR"
+  },
+  "TimeZone": {
+   "Code": "TRT",
+   "Name": "Europe/Istanbul",
+   "GMTOffset": 3,
+   "NextOffsetChange": "0001-01-01T00:00:00Z"
+  },
+  "GeoPosition": {
+   "Latitude": 36.619,
+   "Longitude": 29.117,
+   "Elevation": {
+    "Metric": {
+     "Unit": "m",
+     "UnitType": 5
+    },
+    "Imperial": {
+     "Value": 45,
+     "Unit": "ft"
+    }
+   }
+  },
+  "SupplementalAdminAreas": [],
+  "Details": {
+   "Key": "319475",
+   "StationCode": "TU0081",
+   "StationGmtOffset": 3,
+   "BandMap": "TU",
+   "Climo": "LTBS",
+   "Metar": "LTBS",
+   "Population": 68285,
+   "Satellite": "MIDE",
+   "Synoptic": "17296",
+   "Sources": [
+    {
+     "DataType": "CurrentConditions",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "DailyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "HourlyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "Dangerous Thunderstorm Alert Push Notifications",
+     "Source": "Earth Networks",
+     "SourceId": 57
+    }
+   ],
+   "CanonicalLocationKey": "319475",
+   "LocationStem": "tr/fethiye/319475"
+  }
+ },
+ {
+  "Language": "tr-tr",
+  "Version": 1,
+  "Key": "319473",
+  "Type": "City",
+  "Rank": 65,
+  "LocalizedName": "Dalaman",
+  "EnglishName": "Dalaman",
+  "Region": {
+   "ID": "MEA",
+   "LocalizedName": "Orta Doğu",
+   "EnglishName": "Middle East"
+  },
+  "Country": {
+   "ID": "TR",
+   "LocalizedName": "Türkiye",
+   "EnglishName": "Turkey"
+  },
+  "AdministrativeArea": {
+   "ID": "48",
+   "LocalizedName": "Muğla",
+   "EnglishName": "Mugla",
+   "Level": 1,
+   "LocalizedType": "Eyalet",
+   "EnglishType": "Province",
+   "CountryID": "TR"
+  },
+  "TimeZone": {
+   "Code": "TRT",
+   "Name": "Europe/Istanbul",
+   "GMTOffset": 3,
+   "NextOffsetChange": "0001-01-01T00:00:00Z"
+  },
+  "GeoPosition": {
+   "Latitude": 36.811,
+   "Longitude": 28.754,
+   "Elevation": {
+    "Metric": {
+     "Unit": "m",
+     "UnitType": 5
+    },
+    "Imperial": {
+     "Value": 141,
+     "Unit": "ft"
+    }
+   }
+  },
+  "SupplementalAdminAreas": [],
+  "Details": {
+   "Key": "319473",
+   "StationCode": "TRORTC",
+   "StationGmtOffset": 3,
+   "BandMap": "TU",
+   "Climo": "LTBS",
+   "Metar": "LTBS",
+   "Population": 22046,
+   "Satellite": "MIDE",
+   "Synoptic": "17295",
+   "Sources": [
+    {
+     "DataType": "CurrentConditions",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "DailyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "HourlyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "Dangerous Thunderstorm Alert Push Notifications",
+     "Source": "Earth Networks",
+     "SourceId": 57
+    }
+   ],
+   "CanonicalLocationKey": "319473",
+   "LocationStem": "tr/dalaman/319473"
+  }
+ },
+ {
+  "Language": "tr-tr",
+  "Version": 1,
+  "Key": "319487",
+  "Type": "City",
+  "Rank": 75,
+  "LocalizedName": "Dalyan",
+  "EnglishName": "Dalyan",
+  "Region": {
+   "ID": "MEA",
+   "LocalizedName": "Orta Doğu",
+   "EnglishName": "Middle East"
+  },
+  "Country": {
+   "ID": "TR",
+   "LocalizedName": "Türkiye",
+   "EnglishName": "Turkey"
+  },
+  "AdministrativeArea": {
+   "ID": "48",
+   "LocalizedName": "Muğla",
+   "EnglishName": "Mugla",
+   "Level": 1,
+   "LocalizedType": "Eyalet",
+   "EnglishType": "Province",
+   "CountryID": "TR"
+  },
+  "TimeZone": {
+   "Code": "TRT",
+   "Name": "Europe/Istanbul",
+   "GMTOffset": 3,
+   "NextOffsetChange": "0001-01-01T00:00:00Z"
+  },
+  "GeoPosition": {
+   "Latitude": 36.833,
+   "Longitude": 28.641,
+   "Elevation": {
+    "Metric": {
+     "Unit": "m",
+     "UnitType": 5
+    },
+    "Imperial": {
+     "Value": 26,
+     "Unit": "ft"
+    }
+   }
+  },
+  "SupplementalAdminAreas": [],
+  "Details": {
+   "Key": "319487",
+   "StationCode": "TRORTC",
+   "StationGmtOffset": 3,
+   "BandMap": "TU",
+   "Climo": "LTBS",
+   "Metar": "LTBS",
+   "Population": 5121,
+   "Satellite": "MIDE",
+   "Synoptic": "17295",
+   "Sources": [
+    {
+     "DataType": "CurrentConditions",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "DailyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "HourlyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "Dangerous Thunderstorm Alert Push Notifications",
+     "Source": "Earth Networks",
+     "SourceId": 57
+    }
+   ],
+   "CanonicalLocationKey": "319487",
+   "LocationStem": "tr/dalyan/319487"
+  }
+ },
+ {
+  "Language": "tr-tr",
+  "Version": 1,
+  "Key": "319491",
+  "Type": "City",
+  "Rank": 55,
+  "LocalizedName": "Ortaca",
+  "EnglishName": "Ortaca",
+  "Region": {
+   "ID": "MEA",
+   "LocalizedName": "Orta Doğu",
+   "EnglishName": "Middle East"
+  },
+  "Country": {
+   "ID": "TR",
+   "LocalizedName": "Türkiye",
+   "EnglishName": "Turkey"
+  },
+  "AdministrativeArea": {
+   "ID": "48",
+   "LocalizedName": "Muğla",
+   "EnglishName": "Mugla",
+   "Level": 1,
+   "LocalizedType": "Eyalet",
+   "EnglishType": "Province",
+   "CountryID": "TR"
+  },
+  "TimeZone": {
+   "Code": "TRT",
+   "Name": "Europe/Istanbul",
+   "GMTOffset": 3,
+   "NextOffsetChange": "0001-01-01T00:00:00Z"
+  },
+  "GeoPosition": {
+   "Latitude": 36.817,
+   "Longitude": 28.783,
+   "Elevation": {
+    "Metric": {
+     "Unit": "m",
+     "UnitType": 5
+    },
+    "Imperial": {
+     "Value": 164,
+     "Unit": "ft"
+    }
+   }
+  },
+  "SupplementalAdminAreas": [],
+  "Details": {
+   "Key": "319491",
+   "StationCode": "TRORTC",
+   "StationGmtOffset": 3,
+   "BandMap": "TU",
+   "Climo": "LTBS",
+   "Metar": "LTBS",
+   "Population": 25009,
+   "Satellite": "MIDE",
+   "Synoptic": "17295",
+   "Sources": [
+    {
+     "DataType": "CurrentConditions",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "DailyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "HourlyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "Dangerous Thunderstorm Alert Push Notifications",
+     "Source": "Earth Networks",
+     "SourceId": 57
+    }
+   ],
+   "CanonicalLocationKey": "319491",
+   "LocationStem": "tr/ortaca/319491"
+  }
+ },
+ {
+  "Language": "en-us",
+  "Version": 1,
+  "Key": "1307281",
+  "Type": "City",
+  "Rank": 85,
+  "LocalizedName": "Adrasan",
+  "EnglishName": "Adrasan",
+  "Region": {
+   "ID": "MEA",
+   "LocalizedName": "Middle East",
+   "EnglishName": "Middle East"
+  },
+  "Country": {
+   "ID": "TR",
+   "LocalizedName": "Turkey",
+   "EnglishName": "Turkey"
+  },
+  "AdministrativeArea": {
+   "ID": "07",
+   "LocalizedName": "Antalya",
+   "EnglishName": "Antalya",
+   "Level": 1,
+   "LocalizedType": "Province",
+   "EnglishType": "Province",
+   "CountryID": "TR"
+  },
+  "TimeZone": {
+   "Code": "TRT",
+   "Name": "Europe/Istanbul",
+   "GMTOffset": 3,
+   "NextOffsetChange": "0001-01-01T00:00:00Z"
+  },
+  "GeoPosition": {
+   "Latitude": 36.33,
+   "Longitude": 30.432,
+   "Elevation": {
+    "Metric": {
+     "Unit": "m",
+     "UnitType": 5
+    },
+    "Imperial": {
+     "Value": 157,
+     "Unit": "ft"
+    }
+   }
+  },
+  "SupplementalAdminAreas": [],
+  "Details": {
+   "Key": "1307281",
+   "StationCode": "TU0328",
+   "StationGmtOffset": 3,
+   "BandMap": "TU",
+   "Climo": "LTAI",
+   "Metar": "LTAI",
+   "Population": 2350,
+   "Satellite": "MIDE",
+   "Synoptic": "17375",
+   "Sources": [
+    {
+     "DataType": "CurrentConditions",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "DailyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "Dangerous Thunderstorm Alert Push Notifications",
+     "Source": "Earth Networks",
+     "SourceId": 57
+    },
+    {
+     "DataType": "HourlyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    }
+   ],
+   "CanonicalLocationKey": "1307281",
+   "LocationStem": "tr/adrasan/1307281"
+  }
+ },
+ {
+  "Language": "tr-tr",
+  "Version": 1,
+  "Key": "316949",
+  "Type": "City",
+  "Rank": 65,
+  "LocalizedName": "Finike",
+  "EnglishName": "Finike",
+  "Region": {
+   "ID": "MEA",
+   "LocalizedName": "Orta Doğu",
+   "EnglishName": "Middle East"
+  },
+  "Country": {
+   "ID": "TR",
+   "LocalizedName": "Türkiye",
+   "EnglishName": "Turkey"
+  },
+  "AdministrativeArea": {
+   "ID": "07",
+   "LocalizedName": "Antalya",
+   "EnglishName": "Antalya",
+   "Level": 1,
+   "LocalizedType": "Eyalet",
+   "EnglishType": "Province",
+   "CountryID": "TR"
+  },
+  "TimeZone": {
+   "Code": "TRT",
+   "Name": "Europe/Istanbul",
+   "GMTOffset": 3,
+   "NextOffsetChange": "0001-01-01T00:00:00Z"
+  },
+  "GeoPosition": {
+   "Latitude": 36.293,
+   "Longitude": 30.124,
+   "Elevation": {
+    "Metric": {
+     "Unit": "m",
+     "UnitType": 5
+    },
+    "Imperial": {
+     "Value": 908,
+     "Unit": "ft"
+    }
+   }
+  },
+  "SupplementalAdminAreas": [],
+  "Details": {
+   "Key": "316949",
+   "StationCode": "TU0288",
+   "StationGmtOffset": 3,
+   "BandMap": "TU",
+   "Climo": "LTAI",
+   "Metar": "LTAI",
+   "Population": 11244,
+   "Satellite": "MIDE",
+   "Synoptic": "17375",
+   "MarineStation": "TUM038",
+   "MarineStationGmtOffset": 3,
+   "Sources": [
+    {
+     "DataType": "CurrentConditions",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "DailyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "HourlyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "Dangerous Thunderstorm Alert Push Notifications",
+     "Source": "Earth Networks",
+     "SourceId": 57
+    }
+   ],
+   "CanonicalLocationKey": "316949",
+   "LocationStem": "tr/finike/316949"
+  }
+ },
+ {
+  "Language": "tr-tr",
+  "Version": 1,
+  "Key": "316969",
+  "Type": "City",
+  "Rank": 65,
+  "LocalizedName": "Kemer",
+  "EnglishName": "Kemer",
+  "Region": {
+   "ID": "MEA",
+   "LocalizedName": "Orta Doğu",
+   "EnglishName": "Middle East"
+  },
+  "Country": {
+   "ID": "TR",
+   "LocalizedName": "Türkiye",
+   "EnglishName": "Turkey"
+  },
+  "AdministrativeArea": {
+   "ID": "07",
+   "LocalizedName": "Antalya",
+   "EnglishName": "Antalya",
+   "Level": 1,
+   "LocalizedType": "Eyalet",
+   "EnglishType": "Province",
+   "CountryID": "TR"
+  },
+  "TimeZone": {
+   "Code": "TRT",
+   "Name": "Europe/Istanbul",
+   "GMTOffset": 3,
+   "NextOffsetChange": "0001-01-01T00:00:00Z"
+  },
+  "GeoPosition": {
+   "Latitude": 36.367,
+   "Longitude": 29.717,
+   "Elevation": {
+    "Metric": {
+     "Unit": "m",
+     "UnitType": 5
+    },
+    "Imperial": {
+     "Value": 1223,
+     "Unit": "ft"
+    }
+   }
+  },
+  "SupplementalAdminAreas": [],
+  "Details": {
+   "Key": "316969",
+   "StationCode": "TU0129",
+   "StationGmtOffset": 3,
+   "BandMap": "TU",
+   "Climo": "LTBS",
+   "Metar": "LTBS",
+   "Population": 19342,
+   "Satellite": "MIDE",
+   "Synoptic": "17380",
+   "Sources": [
+    {
+     "DataType": "CurrentConditions",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "DailyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "HourlyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "Dangerous Thunderstorm Alert Push Notifications",
+     "Source": "Earth Networks",
+     "SourceId": 57
+    }
+   ],
+   "CanonicalLocationKey": "316969",
+   "LocationStem": "tr/kemer/316969"
+  }
+ },
+ {
+  "Language": "en-us",
+  "Version": 1,
+  "Key": "316942",
+  "Type": "City",
+  "Rank": 75,
+  "LocalizedName": "Goynuk",
+  "EnglishName": "Goynuk",
+  "Region": {
+   "ID": "MEA",
+   "LocalizedName": "Middle East",
+   "EnglishName": "Middle East"
+  },
+  "Country": {
+   "ID": "TR",
+   "LocalizedName": "Turkey",
+   "EnglishName": "Turkey"
+  },
+  "AdministrativeArea": {
+   "ID": "07",
+   "LocalizedName": "Antalya",
+   "EnglishName": "Antalya",
+   "Level": 1,
+   "LocalizedType": "Province",
+   "EnglishType": "Province",
+   "CountryID": "TR"
+  },
+  "TimeZone": {
+   "Code": "TRT",
+   "Name": "Europe/Istanbul",
+   "GMTOffset": 3,
+   "NextOffsetChange": "0001-01-01T00:00:00Z"
+  },
+  "GeoPosition": {
+   "Latitude": 36.671,
+   "Longitude": 30.549,
+   "Elevation": {
+    "Metric": {
+     "Unit": "m",
+     "UnitType": 5
+    },
+    "Imperial": {
+     "Value": 200,
+     "Unit": "ft"
+    }
+   }
+  },
+  "SupplementalAdminAreas": [],
+  "Details": {
+   "Key": "316942",
+   "StationCode": "LTAI",
+   "StationGmtOffset": 3,
+   "BandMap": "TU",
+   "Climo": "LTAI",
+   "Metar": "LTAI",
+   "Population": 6712,
+   "Satellite": "MIDE",
+   "Synoptic": "17302",
+   "MarineStation": "TUM031",
+   "MarineStationGmtOffset": 3,
+   "Sources": [
+    {
+     "DataType": "CurrentConditions",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "DailyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "HourlyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "Dangerous Thunderstorm Alert Push Notifications",
+     "Source": "Earth Networks",
+     "SourceId": 57
+    }
+   ],
+   "CanonicalLocationKey": "316942",
+   "LocationStem": "tr/goynuk/316942"
+  }
+ },
+ {
+  "Language": "tr-tr",
+  "Version": 1,
+  "Key": "316965",
+  "Type": "City",
+  "Rank": 75,
+  "LocalizedName": "Belek",
+  "EnglishName": "Belek",
+  "Region": {
+   "ID": "MEA",
+   "LocalizedName": "Orta Doğu",
+   "EnglishName": "Middle East"
+  },
+  "Country": {
+   "ID": "TR",
+   "LocalizedName": "Türkiye",
+   "EnglishName": "Turkey"
+  },
+  "AdministrativeArea": {
+   "ID": "07",
+   "LocalizedName": "Antalya",
+   "EnglishName": "Antalya",
+   "Level": 1,
+   "LocalizedType": "Eyalet",
+   "EnglishType": "Province",
+   "CountryID": "TR"
+  },
+  "TimeZone": {
+   "Code": "TRT",
+   "Name": "Europe/Istanbul",
+   "GMTOffset": 3,
+   "NextOffsetChange": "0001-01-01T00:00:00Z"
+  },
+  "GeoPosition": {
+   "Latitude": 36.863,
+   "Longitude": 31.059,
+   "Elevation": {
+    "Metric": {
+     "Unit": "m",
+     "UnitType": 5
+    },
+    "Imperial": {
+     "Value": 29,
+     "Unit": "ft"
+    }
+   }
+  },
+  "SupplementalAdminAreas": [],
+  "Details": {
+   "Key": "316965",
+   "StationCode": "LTAI",
+   "StationGmtOffset": 3,
+   "BandMap": "TU",
+   "Climo": "LTAI",
+   "Metar": "LTAI",
+   "Population": 7740,
+   "Satellite": "MIDE",
+   "Synoptic": "17300",
+   "MarineStation": "TUM031",
+   "MarineStationGmtOffset": 3,
+   "Sources": [
+    {
+     "DataType": "CurrentConditions",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "DailyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "HourlyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "Dangerous Thunderstorm Alert Push Notifications",
+     "Source": "Earth Networks",
+     "SourceId": 57
+    }
+   ],
+   "CanonicalLocationKey": "316965",
+   "LocationStem": "tr/belek/316965"
+  }
+ },
+ {
+  "Language": "en-us",
+  "Version": 1,
+  "Key": "1287636",
+  "Type": "City",
+  "Rank": 65,
+  "LocalizedName": "Side",
+  "EnglishName": "Side",
+  "Region": {
+   "ID": "MEA",
+   "LocalizedName": "Middle East",
+   "EnglishName": "Middle East"
+  },
+  "Country": {
+   "ID": "TR",
+   "LocalizedName": "Turkey",
+   "EnglishName": "Turkey"
+  },
+  "AdministrativeArea": {
+   "ID": "07",
+   "LocalizedName": "Antalya",
+   "EnglishName": "Antalya",
+   "Level": 1,
+   "LocalizedType": "Province",
+   "EnglishType": "Province",
+   "CountryID": "TR"
+  },
+  "TimeZone": {
+   "Code": "TRT",
+   "Name": "Europe/Istanbul",
+   "GMTOffset": 3,
+   "NextOffsetChange": "0001-01-01T00:00:00Z"
+  },
+  "GeoPosition": {
+   "Latitude": 36.783,
+   "Longitude": 31.397,
+   "Elevation": {
+    "Metric": {
+     "Unit": "m",
+     "UnitType": 5
+    },
+    "Imperial": {
+     "Unit": "ft"
+    }
+   }
+  },
+  "SupplementalAdminAreas": [],
+  "Details": {
+   "Key": "1287636",
+   "StationCode": "TUMAN",
+   "StationGmtOffset": 3,
+   "BandMap": "TU",
+   "Climo": "LTAI",
+   "Metar": "LTAI",
+   "Population": 12742,
+   "Satellite": "MIDE",
+   "Synoptic": "17300",
+   "MarineStation": "TUM033",
+   "MarineStationGmtOffset": 3,
+   "Sources": [
+    {
+     "DataType": "CurrentConditions",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "DailyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "HourlyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "Dangerous Thunderstorm Alert Push Notifications",
+     "Source": "Earth Networks",
+     "SourceId": 57
+    }
+   ],
+   "CanonicalLocationKey": "1287636",
+   "LocationStem": "tr/side/1287636"
+  }
+ },
+ {
+  "Language": "tr-tr",
+  "Version": 1,
+  "Key": "316940",
+  "Type": "City",
+  "Rank": 35,
+  "LocalizedName": "Alanya",
+  "EnglishName": "Alanya",
+  "Region": {
+   "ID": "MEA",
+   "LocalizedName": "Orta Doğu",
+   "EnglishName": "Middle East"
+  },
+  "Country": {
+   "ID": "TR",
+   "LocalizedName": "Türkiye",
+   "EnglishName": "Turkey"
+  },
+  "AdministrativeArea": {
+   "ID": "07",
+   "LocalizedName": "Antalya",
+   "EnglishName": "Antalya",
+   "Level": 1,
+   "LocalizedType": "Eyalet",
+   "EnglishType": "Province",
+   "CountryID": "TR"
+  },
+  "TimeZone": {
+   "Code": "TRT",
+   "Name": "Europe/Istanbul",
+   "GMTOffset": 3,
+   "NextOffsetChange": "0001-01-01T00:00:00Z"
+  },
+  "GeoPosition": {
+   "Latitude": 36.547,
+   "Longitude": 32.001,
+   "Elevation": {
+    "Metric": {
+     "Unit": "m",
+     "UnitType": 5
+    },
+    "Imperial": {
+     "Value": 406,
+     "Unit": "ft"
+    }
+   }
+  },
+  "SupplementalAdminAreas": [],
+  "Details": {
+   "Key": "316940",
+   "StationCode": "TU0253",
+   "StationGmtOffset": 3,
+   "BandMap": "TU",
+   "Climo": "LTFG",
+   "Metar": "LTAI",
+   "Population": 299464,
+   "Satellite": "MIDE",
+   "Synoptic": "17310",
+   "MarineStation": "TUM033",
+   "MarineStationGmtOffset": 3,
+   "Sources": [
+    {
+     "DataType": "CurrentConditions",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "DailyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "HourlyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "Dangerous Thunderstorm Alert Push Notifications",
+     "Source": "Earth Networks",
+     "SourceId": 57
+    }
+   ],
+   "CanonicalLocationKey": "316940",
+   "LocationStem": "tr/alanya/316940"
+  }
+ },
+ {
+  "Language": "en-us",
+  "Version": 1,
+  "Key": "1306262",
+  "Type": "City",
+  "Rank": 600,
+  "LocalizedName": "Cirali",
+  "EnglishName": "Cirali",
+  "Region": {
+   "ID": "MEA",
+   "LocalizedName": "Middle East",
+   "EnglishName": "Middle East"
+  },
+  "Country": {
+   "ID": "TR",
+   "LocalizedName": "Turkey",
+   "EnglishName": "Turkey"
+  },
+  "AdministrativeArea": {
+   "ID": "07",
+   "LocalizedName": "Antalya",
+   "EnglishName": "Antalya",
+   "Level": 1,
+   "LocalizedType": "Province",
+   "EnglishType": "Province",
+   "CountryID": "TR"
+  },
+  "TimeZone": {
+   "Code": "TRT",
+   "Name": "Europe/Istanbul",
+   "GMTOffset": 3,
+   "NextOffsetChange": "0001-01-01T00:00:00Z"
+  },
+  "GeoPosition": {
+   "Latitude": 36.4,
+   "Longitude": 30.467,
+   "Elevation": {
+    "Metric": {
+     "Unit": "m",
+     "UnitType": 5
+    },
+    "Imperial": {
+     "Value": 68,
+     "Unit": "ft"
+    }
+   }
+  },
+  "SupplementalAdminAreas": [],
+  "Details": {
+   "Key": "1306262",
+   "StationCode": "TU0288",
+   "StationGmtOffset": 3,
+   "BandMap": "TU",
+   "Climo": "LTAI",
+   "Metar": "LTAI",
+   "Satellite": "MIDE",
+   "Synoptic": "17375",
+   "MarineStation": "TUM031",
+   "MarineStationGmtOffset": 3,
+   "Sources": [
+    {
+     "DataType": "CurrentConditions",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "DailyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "HourlyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "Dangerous Thunderstorm Alert Push Notifications",
+     "Source": "Earth Networks",
+     "SourceId": 57
+    }
+   ],
+   "CanonicalLocationKey": "1306262",
+   "LocationStem": "tr/cirali/1306262"
+  }
+ },
+ {
+  "Language": "tr-tr",
+  "Version": 1,
+  "Key": "1-318249_31_AL",
+  "Type": "City",
+  "Rank": 55,
+  "LocalizedName": "Yenibosna",
+  "EnglishName": "Yenibosna",
+  "Region": {
+   "ID": "MEA",
+   "LocalizedName": "Orta Doğu",
+   "EnglishName": "Middle East"
+  },
+  "Country": {
+   "ID": "TR",
+   "LocalizedName": "Türkiye",
+   "EnglishName": "Turkey"
+  },
+  "AdministrativeArea": {
+   "ID": "34",
+   "LocalizedName": "İstanbul",
+   "EnglishName": "Istanbul",
+   "Level": 1,
+   "LocalizedType": "Eyalet",
+   "EnglishType": "Province",
+   "CountryID": "TR"
+  },
+  "TimeZone": {
+   "Code": "TRT",
+   "Name": "Europe/Istanbul",
+   "GMTOffset": 3,
+   "NextOffsetChange": "0001-01-01T00:00:00Z"
+  },
+  "GeoPosition": {
+   "Latitude": 41.012,
+   "Longitude": 28.819,
+   "Elevation": {
+    "Metric": {
+     "Unit": "m",
+     "UnitType": 5
+    },
+    "Imperial": {
+     "Value": 246,
+     "Unit": "ft"
+    }
+   }
+  },
+  "IsAlias": true,
+  "SupplementalAdminAreas": [
+   {
+    "Level": 2,
+    "LocalizedName": "Bahçelievler",
+    "EnglishName": "Bahcelievler"
+   }
+  ],
+  "Details": {
+   "Key": "1-318249_31_AL",
+   "StationCode": "LTBA",
+   "StationGmtOffset": 3,
+   "BandMap": "TU",
+   "Climo": "LTBA",
+   "Metar": "LTBA",
+   "Population": 34683,
+   "Satellite": "MIDE",
+   "Synoptic": "17060",
+   "Sources": [
+    {
+     "DataType": "CurrentConditions",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "DailyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "HourlyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "Dangerous Thunderstorm Alert Push Notifications",
+     "Source": "Earth Networks",
+     "SourceId": 57
+    }
+   ],
+   "CanonicalLocationKey": "318251",
+   "LocationStem": "tr/yenibosna/1-318249_31_AL"
+  }
+ },
+ {
+  "Language": "tr-TR",
+  "Version": 1,
+  "Key": "1285169",
+  "Type": "City",
+  "Rank": 65,
+  "LocalizedName": "Topkapi",
+  "EnglishName": "Topkapi",
+  "Region": {
+   "ID": "MEA",
+   "LocalizedName": "Orta Doğu",
+   "EnglishName": "Middle East"
+  },
+  "Country": {
+   "ID": "TR",
+   "LocalizedName": "Türkiye",
+   "EnglishName": "Turkey"
+  },
+  "AdministrativeArea": {
+   "ID": "34",
+   "LocalizedName": "İstanbul",
+   "EnglishName": "Istanbul",
+   "Level": 1,
+   "LocalizedType": "Eyalet",
+   "EnglishType": "Province",
+   "CountryID": "TR"
+  },
+  "TimeZone": {
+   "Code": "TRT",
+   "Name": "Europe/Istanbul",
+   "GMTOffset": 3,
+   "NextOffsetChange": "0001-01-01T00:00:00Z"
+  },
+  "GeoPosition": {
+   "Latitude": 41.019,
+   "Longitude": 28.932,
+   "Elevation": {
+    "Metric": {
+     "Unit": "m",
+     "UnitType": 5
+    },
+    "Imperial": {
+     "Value": 95,
+     "Unit": "ft"
+    }
+   }
+  },
+  "SupplementalAdminAreas": [
+   {
+    "Level": 2,
+    "LocalizedName": "Fatih",
+    "EnglishName": "Fatih"
+   }
+  ],
+  "Details": {
+   "Key": "1285169",
+   "StationCode": "TRBEYG",
+   "StationGmtOffset": 3,
+   "BandMap": "TU",
+   "Climo": "LTBA",
+   "Metar": "LTBA",
+   "Population": 11429,
+   "Satellite": "MIDE",
+   "Synoptic": "17060",
+   "Sources": [
+    {
+     "DataType": "CurrentConditions",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "DailyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "HourlyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "Dangerous Thunderstorm Alert Push Notifications",
+     "Source": "Earth Networks",
+     "SourceId": 57
+    }
+   ],
+   "CanonicalLocationKey": "318251",
+   "LocationStem": "tr/topkapi/1285169"
+  }
+ },
+ {
+  "Language": "tr-TR",
+  "Version": 1,
+  "Key": "328328",
+  "Type": "City",
+  "Rank": 10,
+  "LocalizedName": "Londra",
+  "EnglishName": "London",
+  "PrimaryPostalCode": "EC4A 2",
+  "Region": {
+   "ID": "EUR",
+   "LocalizedName": "Avrupa",
+   "EnglishName": "Europe"
+  },
+  "Country": {
+   "ID": "GB",
+   "LocalizedName": "Birleşik Krallık",
+   "EnglishName": "United Kingdom"
+  },
+  "AdministrativeArea": {
+   "ID": "LND",
+   "LocalizedName": "Londra",
+   "EnglishName": "London",
+   "Level": 1,
+   "LocalizedType": "İlçe",
+   "EnglishType": "London Borough",
+   "CountryID": "GB"
+  },
+  "TimeZone": {
+   "Code": "BST",
+   "Name": "Europe/London",
+   "GMTOffset": 1,
+   "IsDaylightSaving": true,
+   "NextOffsetChange": "2019-10-27T01:00:00Z"
+  },
+  "GeoPosition": {
+   "Latitude": 51.514,
+   "Longitude": -0.107,
+   "Elevation": {
+    "Metric": {
+     "Unit": "m",
+     "UnitType": 5
+    },
+    "Imperial": {
+     "Value": 59,
+     "Unit": "ft"
+    }
+   }
+  },
+  "SupplementalAdminAreas": [
+   {
+    "LocalizedName": "England",
+    "EnglishName": "England"
+   },
+   {
+    "Level": 3,
+    "LocalizedName": "Castle Baynard",
+    "EnglishName": "Castle Baynard"
+   }
+  ],
+  "DataSets": [
+   "Alerts",
+   "MinuteCast",
+   "Radar"
+  ],
+  "Details": {
+   "Key": "328328",
+   "StationCode": "EGRB",
+   "BandMap": "ENGL",
+   "Climo": "EGLC",
+   "Metar": "EGLC",
+   "NxState": "EUR3",
+   "Population": 7517700,
+   "Satellite": "EUR3",
+   "Synoptic": "03770",
+   "Sources": [
+    {
+     "DataType": "Alerts",
+     "Source": "Met Office National Severe Weather Warnings",
+     "SourceId": 4
+    },
+    {
+     "DataType": "Alerts",
+     "Source": "UK Environment Agency",
+     "SourceId": 42
+    },
+    {
+     "DataType": "CurrentConditions",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "DailyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "HourlyForecast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "MinuteCast",
+     "Source": "AccuWeather",
+     "SourceId": 1
+    },
+    {
+     "DataType": "Radar",
+     "Source": "UK Met Office",
+     "SourceId": 60
+    },
+    {
+     "DataType": "Severe Weather Push Notifications",
+     "Source": "Met Office National Severe Weather Warnings",
+     "SourceId": 4
+    },
+    {
+     "DataType": "Severe Weather Push Notifications",
+     "Source": "UK Environment Agency",
+     "SourceId": 42
+    }
+   ],
+   "CanonicalPostalCode": "EC4A 2",
+   "CanonicalLocationKey": "328328",
+   "LocationStem": "gb/london/ec4a-2"
+  }
+ }
+]
